@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projeto.css"> 
+</head>
+<body>
+    <!-- Passo 1: Formulário -->
+    <form id="formcadastro">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"> 
+        </div> 
+        <div>
+            <label for="sexo"><input type="radio" value="Masculino" name="sexo" id="rbMasculino">masculino<input type="radio" value="Feminino" name="sexo" id="rbFeminino">feminino</label>
+        </div>
+        <div>
+            <label for="data">data de nascimento:</label>
+            <input type="text" name="data" id="data">
+        </div>
+        <div>
+            <label for="cep">cep:</label>
+            <input type="text" name="cep" id="cep"> 
+        </div>
+        <div>
+            <label for="rua">rua:</label>
+            <input type="text" name="rua" id="rua">
+        </div>
+        <div>
+            <label for="cidade">cidade:</label>
+            <input type="text" name="cidade" id="cidade"> 
+        </div>
+        <div>
+            <label for="estado">estado:</label>
+            <input type="text" name="estado" id="estado">
+        </div>
+        <div>
+            <label for="scales">tem filhos?</label>
+            <input  type="checkbox" id="filho" name="filhos?">
+        </div>
+       
+        <label for="escolaridade">escoladidade:</label>
+
+        <select name="escolaridade" id="ecolaridade">
+            <option value="">--qual seu nivel--</option>
+            <option value="1">1&#176 grau incompleto</option>
+            <option value="2">1&#176 grau completo</option>
+            <option value="3">ensino medio incompleto </option>
+            <option value="4">ensino medio completo</option>
+            <option value="5">superior cursando</option>
+            <option value="6">superior incompleto</option>
+            <option value="7">superior completo</option>
+        </select>
+
+        <p><strong>hobies</strong></p>
+        <div>
+            <label for="scales">futebol</label>
+            <input  type="checkbox" id="futebol" name="futebol">
+
+            <label for="scales">basquete</label>
+            <input  type="checkbox" id="basquete" name="basquete">
+
+            <label for="scales">caminhar</label>
+            <input  type="checkbox" id="caminhar" name="caminhar">
+
+            <label for="scales">volei</label>
+            <input  type="checkbox" id="volei" name="volei">
+
+            <label for="scales">tenis</label>
+            <input  type="checkbox" id="tenis" name="tenis">
+
+            <label for="scales">correr</label>
+            <input  type="checkbox" id="correr" name="correr">
+        </div>
+
+       <div>
+        <input type="submit" value="cadastrar">
+        <input type="submit" value="limpar">
+       </div>
+
+    </form>
+    <!-- Passo 2: tabela -->
+    <table>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>data de nascimento</th>
+                <th>cep</th>
+                <th>rua</th>
+                <th>cidade</th>
+                <th>estado</th>
+                <th>possui filhos</th>
+                <th>escolaridade</th>
+                <th>hobies</th>
+                <th>açao</th>
+            </tr>
+        </thead>
+       
+        <tbody id="cadastrados">      
+           
+        </tbody>
+
+    </table>
+
+    <script src="cadastro.js"></script>
+
+</body>
+</html>

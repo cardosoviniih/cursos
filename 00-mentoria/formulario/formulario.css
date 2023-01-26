@@ -1,0 +1,29 @@
+/* Estlização da página */
+
+table {
+    border: 1px solid gray;
+}
+
+thead {
+    background-color: darkblue;
+    color: white;
+}
+
+tbody tr td{
+    border: 1px solid gray;
+}
+
+.proibido {
+    background-color: red;
+    color: white;
+}
+
+.permitido {
+    background-color: green;
+    color: white;
+}
+
+.neutro {
+    background-color: lightgray;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.flexcontainer:last-child{margin-top: 2em;}
+body{margin:0; padding:50px;}
+div{height:50px; width: 50px;}
+div:nth-child(1){background-color:RED ; width:40px; height:40px;}
+div:nth-child(2){background-color:BLUE ;}
+div:nth-child(3){background-color:GREEN ;}
+div:nth-child(4){background-color:YELLOW ;}
+div:nth-child(5){background-color:PINK ;}
+div:nth-child(6){background-color:BLACK ;}
+div:nth-child(7){background-color:ORANGE ;}
+div:nth-child(8){background-color:SILVER ;}
+/*fim do setup*/
+
+.flexContainer{
+   flex-direction: column;
+
+}
+.flexItem{
+    flex-grow: 1;
+}
+.primeiro{
+    flex-grow: 2;
+}

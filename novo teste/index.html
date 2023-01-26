@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formformulario">
+        <div>
+            <label for="nome">nome:</label>
+            <input type="text"name="nome"id="nome">
+        </div>
+        <div>
+            <label for="data">data de nascimento:</label>
+            <input type="text"name="data"id="data">
+        </div>
+        <div>
+            <label for="cep">cep:</label>
+            <input type="text"name="cep"id="cep">
+        </div>
+        <div>
+            <label for="rua">rua:</label>
+            <input type="text"name="rua"id="rua">
+        </div>
+        <div>
+            <label for="cidade">cidade:</label>
+            <input type="text"name="cidade"id="cidade">
+        </div>
+        <div>
+            <label for="estado">estado:</label>
+            <input type="text"name="estado"id="estado">
+        </div> 
+        <div>
+            <label for="sexo"><input type="radio" value="Masculino" name="sexo" id="rbMasculino">masculino<input type="radio" value="Feminino" name="sexo" id="rbFeminino">feminino</label>
+        </div>
+        <div>
+            <label for="scales">tem filhos?</label>
+            <input  type="checkbox" id="filho" name="filhos?">
+        </div>
+       
+        <label for="escolaridade">escoladidade:</label>
+
+        <select name="escolaridade" id="ecolaridade">
+            <option value="">----</option>
+            <option value="1">1&#176 grau incompleto</option>
+            <option value="2">1&#176 grau completo</option>
+            <option value="3">ensino medio incompleto </option>
+            <option value="4">ensino medio completo</option>
+            <option value="5">superior cursando</option>
+            <option value="6">superior incompleto</option>
+            <option value="7">superior completo</option>
+        </select>
+        <h1>hobies</h1>
+        <div>
+            <label for="futebol">futebol</label>
+            <input  type="checkbox" id="futebol" name="futebol">
+
+            <label for="basquete">basquete</label>
+            <input  type="checkbox" id="basquete" name="basquete">
+
+            <label for="caminhar">caminhar</label>
+            <input  type="checkbox" id="caminhar" name="caminhar">
+
+            <label for="volei">volei</label>
+            <input  type="checkbox" id="volei" name="volei">
+
+            <label for="tenis">tenis</label>
+            <input  type="checkbox" id="tenis" name="tenis">
+
+            <label for="correr">correr</label>
+            <input  type="checkbox" id="correr" name="correr">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="cadastrar">
+            <input type="submit" value="limpar">
+        </div>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>data</th>
+                <th>cep</th>
+                <th>rua</th>
+                <th>cidade</th>
+                <th>estado</th>
+                <th>sexo</th>
+                <th>filhos</th>
+                <th>escolaridade</th>
+                <th>hobies</th>
+            </tr>
+        </thead>
+        <tbody id="contatos">
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="cadastro.js"></script>
+    
+</body>
+</html>
